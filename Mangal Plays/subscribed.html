@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Stack with Text</title>
+    <style>
+        /* Basic styling for body */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        /* Container for the stacked images */
+        .image-stack {
+            text-align: center;
+            padding: 20px;
+            background-color: #c8f023;
+            
+        
+        }
+
+        .image-container {
+            margin: 20px;
+        }
+
+        /* Style for each image to make them circular */
+        .circle-image {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #000000;
+        }
+
+        /* Styling for image name and description */
+        .image-text {
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .image-description {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #000000;
+            color: #c8f023;
+            text-align: center;
+            padding: 10px;
+            
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="mp-logo21.png" alt="Logo">
+        
+    </header>
+
+    <!-- Image Stack Section -->
+    <div class="image-stack">
+        <!-- First image and its text -->
+        <div class="image-container">
+            <img src="teachers (3).jpeg" alt="Image 1" class="circle-image">
+            <div class="image-text">Amit Sir</div>
+            <div class="image-description">This is a description of Image 1.</div>
+        </div>
+
+        <!-- Second image and its text -->
+        <div class="image-container">
+            <img src="teachers (2).jpeg" alt="Image 2" class="circle-image">
+            <div class="image-text">Neha Mam</div>
+            <div class="image-description">This is a description of Image 2.</div>
+        </div>
+
+        <!-- Third image and its text -->
+        <div class="image-container">
+            <img src="teachers (4).jpeg" alt="Image 3" class="circle-image">
+            <div class="image-text">Madhavi Mam</div>
+            <div class="image-description">This is a description of Image 3.</div>
+        </div>
+
+        <!-- Fourth image and its text -->
+        <div class="image-container">
+            <img src="teachers (5).jpeg" alt="Image 4" class="circle-image">
+            <div class="image-text">Ashim Sir</div>
+            <div class="image-description">This is a description of Image 4.</div>
+        </div>
+
+        <!-- Fifth image and its text -->
+        <div class="image-container">
+            <img src="teachers (1).jpeg" alt="Image 5" class="circle-image">
+            <div class="image-text">Gaurav Sir</div>
+            <div class="image-description">This is a description of Image 5.</div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
